@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*
+    Author:Hunter Karjala
+   
+    Filename: ethansaudio_format.css
+
+*/
+
+/* Body Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    min-width: 640px;
+    width: 95%;
+}
+
+/* Body Header Styles */
+
+body > header > nav.horizontalNavigation li {
+    width: 20%;
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
+
+/* Left Column Styles */
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 70%;
+}
+section#leftColumn img {
+    display: block;
+    width: 100%;
+}
+
+/* Right Column Styles */
+
+section#rightColumn {
+    float: right;
+    padding: 25px;
+    width: 30%;
+}
+
+/* Footer Styles */
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    clear: both;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* HTML and Body Styles */
+
+html {
+   background-color: gray;
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+body {
+   background-color: whitesmoke;  
+}
+
+/* Header Styles */
+
+body > header h1 {
+    background-color: black;
+    color: ghostwhite;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+   }
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+    background-color: ghostwhite;
+    font-family: verdana, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
+    border: solid;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: white;
+}   
+
+
+/* Right Column Styles */
+
+section#rightColumn h2 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: auto;
+}
+
+section#rightColumn p {
+    text-align: left;
+    color: black;
+    font-size: auto;
+    line-height: 1.5em;
+}
+
+
+/* Footer Styles */
+
+body > footer {
+   font-size: .75em;
+   color: black;
+}
